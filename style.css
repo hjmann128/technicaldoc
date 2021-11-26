@@ -1,9 +1,55 @@
 
+@media screen and (max-width: 1200px) {
+    body {
+      font-size: .8em;
+    }
+
+    #navbar li {
+        font-size: 1em;
+        padding: 5px;
+    }
+  }
+
+
 body {
     margin: 35px;
+    display: flex;
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 300px;
+    background-color: rgba(248, 247, 247, 0.527);
+
+    
+}
+section {
+    font-size: 1.2em;
+}
 code {
     background-color: lightgray;
     
 }
+
+header {
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+#navbar {
+    display: flex;
+    position: fixed;
+    flex-direction: column;      
+}
+
+#navbar li {
+    padding: 30px;
+}
+
+#navbar a {
+    background-color:#95b7e9de; 
+    color: black;
+    font-size: 1.3em;
+}
+
